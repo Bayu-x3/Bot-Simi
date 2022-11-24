@@ -1,15 +1,1 @@
-const fetch = require('node-fetch')
-var input1 = require('readline-sync');
-const getISS = async () => {
-    while (true) {
-        var input = input1.question("User: ");
-        if (input === "end") {
-            break;
-        }
-        var url = 'https://api.simsimi.net/v2/?text=' +input+'&lc=id'
-        resp = await fetch(url)
-        msg = await resp.json()
-        console.log(`Simi: ${msg.success}`)
-    }
-}
-getISS()
+var _0x121c69=_0x32df;(function(_0x4c37ae,_0x54840e){var _0x578148=_0x32df,_0x5783d2=_0x4c37ae();while(!![]){try{var _0x28b3cf=parseInt(_0x578148(0x19a))/0x1+-parseInt(_0x578148(0x19d))/0x2*(-parseInt(_0x578148(0x19e))/0x3)+parseInt(_0x578148(0x196))/0x4+-parseInt(_0x578148(0x198))/0x5*(parseInt(_0x578148(0x199))/0x6)+parseInt(_0x578148(0x19f))/0x7+parseInt(_0x578148(0x1a0))/0x8+-parseInt(_0x578148(0x194))/0x9;if(_0x28b3cf===_0x54840e)break;else _0x5783d2['push'](_0x5783d2['shift']());}catch(_0x5edf73){_0x5783d2['push'](_0x5783d2['shift']());}}}(_0x528b,0x35570));const fetch=require('node-fetch');var input1=require(_0x121c69(0x193));function _0x528b(){var _0x49acb5=['284899pKmxZB','question','&lc=id','2kixGjc','563613BdjRqZ','1813889ZhYNkB','856200BOMCmw','end','User:\x20','readline-sync','7347591ujdifG','json','1713552Bntieb','success','15LQuVYK','464862NlQswb'];_0x528b=function(){return _0x49acb5;};return _0x528b();}const getISS=async()=>{var _0x339a52=_0x121c69;while(!![]){var _0x4168a8=input1[_0x339a52(0x19b)](_0x339a52(0x192));if(_0x4168a8===_0x339a52(0x1a1))break;var _0x1dfc65='https://api.simsimi.net/v2/?text='+_0x4168a8+_0x339a52(0x19c);resp=await fetch(_0x1dfc65),msg=await resp[_0x339a52(0x195)](),console['log']('Simi:\x20'+msg[_0x339a52(0x197)]);}};function _0x32df(_0x19ed5a,_0x5b331b){var _0x528b85=_0x528b();return _0x32df=function(_0x32df88,_0x9ad43f){_0x32df88=_0x32df88-0x192;var _0x5a9d3f=_0x528b85[_0x32df88];return _0x5a9d3f;},_0x32df(_0x19ed5a,_0x5b331b);}getISS();
