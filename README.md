@@ -1,4 +1,4 @@
-# Bot-Simi
+# Simple Bot Chat Simi Using API
 Tools buat orang yang lagi gabut aja
 
 Package yang perlu di install:
